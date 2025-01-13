@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+section {
+  padding: 60px 0;
+  border-bottom: 2px solid #ddd; /* Add border line between sections */
+  background-color: #c8cff8; /* Default background color for all sections */
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+  
+  .hero img {
+    border: 5px solid white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .progress {
+    height: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Navbar Styles */
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  margin: 0 10px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+  /******  */
+  .btn-outline-primary, .btn-outline-dark {
+    font-size: 1rem;
+    font-weight: 600;
+    border-width: 2px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #0077b5; /* LinkedIn Blue */
+    color: white;
+  }
+  
+  .btn-outline-dark:hover {
+    background-color: #333; /* GitHub Dark */
+    color: white;
+  }
+
+  /* About Section */
+  #about {
+    background-color: #87bbf0;
+    text-align: left;
+  }
+  
+#about .lead {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.8;
+  }
+  
+  #about img {
+    border: 5px solid white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Timeline Styles for Experience */
+  .timeline {
+    position: relative;
+    padding: 2rem 0;
+  }
+  
+  .timeline-item {
+    margin-bottom: 2rem;
+  }
+  
+  .timeline-item h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .timeline-item ul {
+    padding-left: 1.5rem;
+    list-style-type: disc;
+  }
+  
+  /* Project Cards */
+  .card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  /* hero section */
+  .hero {
+    position: relative;
+    background: url('/images/programmer-background.jpg') no-repeat center center/cover; /* Replace with your image path */
+    color: white;
+    text-align: center;
+  }
+  
+  .hero .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better contrast */
+    z-index: 1;
+  }
+  
+  .hero .container {
+    z-index: 2; /* Ensure content is above the overlay */
+    position: relative;
+  }
+  
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 1.8rem;
+    }
+    .navbar-nav {
+      flex-direction: column;
+    }
+  }
+  
