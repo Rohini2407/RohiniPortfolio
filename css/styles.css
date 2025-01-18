@@ -117,13 +117,13 @@ h2 {
   }
 
   /* hero section */
-  .hero {
+/*   .hero {
     position: relative;
     background: url('images/programmer-background.jpg') no-repeat center center/cover; /* Replace with your image path */
     color: white;
     text-align: center;
   }
-  
+   */
   .hero .background-overlay {
     position: absolute;
     top: 0;
